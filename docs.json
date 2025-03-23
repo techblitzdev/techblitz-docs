@@ -11,21 +11,19 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
-            "pages": ["introduction", "quickstart", "development"]
+            "pages": ["introduction"]
           },
           {
             "group": "Self Hosting",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "self-hosting/introduction",
+              "self-hosting/prerequisites",
+              "self-hosting/installation",
+              "self-hosting/configuration"
             ],
             "icon": "server"
           },
@@ -33,23 +31,15 @@
             "group": "Local Development",
             "pages": ["essentials/markdown", "essentials/code"],
             "icon": "code"
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Open Source",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
+              "open-source/introduction",
+              "open-source/issues",
+              "open-source/style-guide"
+            ],
+            "icon": "code"
           }
         ]
       }
