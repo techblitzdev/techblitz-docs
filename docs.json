@@ -21,15 +21,6 @@
             "pages": ["introduction"]
           },
           {
-            "group": "Open Source Contributions",
-            "pages": [
-              "open-source/introduction",
-              "open-source/issues",
-              "open-source/style-guide"
-            ],
-            "icon": "code"
-          },
-          {
             "group": "Self Hosting",
             "pages": [
               "self-hosting/introduction",
@@ -42,6 +33,16 @@
           {
             "group": "Local Development",
             "pages": ["essentials/markdown", "essentials/code"],
+            "icon": "code"
+          },
+          {
+            "group": "Open Source Contributions",
+            "pages": [
+              "open-source/introduction",
+              "open-source/issues",
+              "open-source/pull-requests",
+              "open-source/style-guide"
+            ],
             "icon": "code"
           }
         ]
