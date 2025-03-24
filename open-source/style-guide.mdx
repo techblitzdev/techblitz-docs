@@ -1,0 +1,30 @@
+---
+title: Style Guide
+description: A guide to the style of code we use in TechBlitz.
+---
+
+## TechBlitz's Style Guide
+
+In order to maintain a high standard of code quality, and consistency, we have a style guide that
+we ask you to follow when contributing to TechBlitz.
+
+### General
+
+Although Prettier is used to format the code (and should be formatted on save), it's always good to know
+the guidelines when writing code.
+
+Here are the main rules we enforce:
+
+- Use single quotes ('') over double quotes** ("").**
+- Use arrow functions over function declarations.
+- Use `const` or `let` over `var`.
+- Semicolons are required.
+
+### File Structure
+
+- All new components should go in `@/components` and be named like `[component-name].tsx` unless otherwise specified.
+- All new pages go in `@/app/[page-name]/page.tsx`.
+- Fetching data on the server belong in the `@/utils/data` directory.
+- The lib and utils folders have different meanings:
+  - `@/lib` is for third party libraries.
+  - `@/utils` is for utility functions (except for `cn`, due to ShadCn's use of it, but we may change this in the future).
