@@ -1,11 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "TechBlitz Documentation",
   "colors": {
     "primary": "#6164D9",
     "light": "#07C983",
     "dark": "#6164D9"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -16,6 +19,15 @@
           {
             "group": "Get Started",
             "pages": ["introduction"]
+          },
+          {
+            "group": "Open Source Contributions",
+            "pages": [
+              "open-source/introduction",
+              "open-source/issues",
+              "open-source/style-guide"
+            ],
+            "icon": "code"
           },
           {
             "group": "Self Hosting",
@@ -30,15 +42,6 @@
           {
             "group": "Local Development",
             "pages": ["essentials/markdown", "essentials/code"],
-            "icon": "code"
-          },
-          {
-            "group": "Open Source",
-            "pages": [
-              "open-source/introduction",
-              "open-source/issues",
-              "open-source/style-guide"
-            ],
             "icon": "code"
           }
         ]
